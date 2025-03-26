@@ -1,6 +1,6 @@
 # Tips
 C'est un dépot pour mes tips
-# Commandes pour la connexion via SSH
+## Commandes pour la connexion via SSH
 
 ``bash
 ssh-keygen -t ed25519 -C "email@mail.com"
@@ -10,7 +10,7 @@ ssh-keygen -t ed25519 -C "email@mail.com"
 ssh -T git@github.com
 ``
 
-# Code pour la configuration de base d'un fichier vue dans les snippets de vscode
+## Code pour la configuration de base d'un fichier vue dans les snippets de vscode
 
 ```js
 {
