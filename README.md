@@ -41,3 +41,21 @@ ssh -T git@github.com
   }
 }
 ```
+
+## Quelques lignes de commandes django
+
+```bash
+python -m venv venv
+source venv/Scripts/activate
+python -m pip install -r backscript/requirements.txt
+py manage.py startapp nom_application(pour créer une application , on met le nom du projet)
+python manage.py runserver
+```
+
+- Installation: py -m pip install django-cors-headers
+- ajout de ceci au niveau de INSTALLED_APPS dans le fichier settings.py: 'corsheaders',
+- Ajout de ceci au niveau de MIDDLEWARE dans le fichier settings.py: 'corsheaders.middleware.CorsMiddleware',
+- Ajout de ceci dans le fichier settings.py: CORS_ALLOWED_ORIGINS = [
+    'http://localhost:3000',
+]
+
