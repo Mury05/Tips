@@ -52,6 +52,11 @@ py manage.py startapp nom_application(pour créer une application , on met le no
 python manage.py runserver
 ```
 
+#### Pour les migrations  :
+```bash
+py manage.py makemigrations nom_de_l_application
+python manage.py migrate --database=nom_de_la_bdd
+```
 - Installation: py -m pip install django-cors-headers
 - ajout de ceci au niveau de INSTALLED_APPS dans le fichier settings.py: 'corsheaders',
 - Ajout de ceci au niveau de MIDDLEWARE dans le fichier settings.py: 'corsheaders.middleware.CorsMiddleware',
