@@ -64,3 +64,49 @@ python manage.py migrate --database=nom_de_la_bdd
     'http://localhost:3000',
 ]
 
+## Quelques notes JS
+````js
+JS NOTES
+
+On utilise var, let et const pour déclarer des variables.
+Avec let, on ne pourra plus redéclarer la variable mais la réassigner (recommandé). 
+Elle est aussi limitée à la portée du bloc.
+
+"=" est l'opérateur d'assignation, il permet d'attriibuer une valeur à une variable.
+
+Incrémentation et décrémentation
+++a, a est incrémenté avant son utilisation 
+a++, a est utilisé avant son utilisation
+Ex:
+a = 6;
+b = ++a //b=7, a=7
+b = a++ //b=6, a=7
+
+On peut convertir des nombres décimaux en entiers en utilisant les fonctions parseInt().
+let floatNum = 10.5;
+let num = parseInt(floatNum); // Convertit le nombre décimal 10.5 en un nombre entier
+
+On peut aussi convertir des nombres entiers en décimal avec les fonctions parseFloat()
+
+Fonctions mathématiques
+
+Math.sqrt(x) //racine carrée
+
+Math.pow(a,b) ou a ** b//puissance
+
+let nombre = 3.7;
+let arrondi1 = Math.round(nombre); // arrondi1 vaut 4
+let arrondi2 = Math.floor(nombre); // arrondi2 vaut 3
+let arrondi3 = Math.ceil(nombre); // arrondi3 vaut 4
+
+Math.abs(nbr) //valeur absolue
+
+Math.random() //Générer des nombres aléatoires, 0 inclu et 1 exclu.
+
+Pour la concaténation des string, on utilise "+"
+
+La propriété .length est utilisé pour troouver la longueur d'un string
+
+Les tableaux peuvent être créés en utilisant des crochets [] ou le constructeur Array.
+````
+
